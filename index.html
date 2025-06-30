@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Action Plan</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        @keyframes fade-up {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes subtle-breath {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.02);
+            }
+        }
+
+        .animate-fade-up {
+            opacity: 0; 
+            animation: fade-up 0.8s ease-out forwards;
+        }
+
+        .animate-breath {
+            animation: subtle-breath 5s ease-in-out infinite;
+        }
+
+        .interactive-list-item {
+            transition: all 0.3s ease;
+        }
+
+        .interactive-list-item:hover {
+            transform: translateX(10px);
+            background-color: #f0fdfa; 
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-gradient-to-r from-green-400 to-teal-500 text-white p-8 shadow-lg animate-breath">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold">My Action Plan <span class="text-2xl">By Elijah Feldman</span></h1>
+            <p class="mt-2 text-xl opacity-90">Choosing a path of non-violence and strength.</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-6">
+
+        <section id="activities" class="mb-10 bg-white p-8 rounded-xl shadow-lg animate-fade-up transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5" style="animation-delay: 0.1s;">
+            <h2 class="text-3xl font-bold mb-4 text-teal-600">Part 1: My Current Activities and Use of Time</h2>
+            <p class="mb-4 text-base leading-relaxed">Now that school is out, I spend most of my time on my passions like web development and personal research.</p>
+            <p class="mb-4 text-base leading-relaxed">I also love to go to the pool, and every morning go to swim practice. I play with friends and swim competitively.</p>
+            <p class="text-base leading-relaxed">Overall, I think I have a good balance. The time I need to be careful with is on the weekends when there is less structure. That's when poor decisions could be made, so I need to have a plan.</p>
+        </section>
+
+        <section id="peer-pressure" class="mb-10 bg-white p-8 rounded-xl shadow-lg animate-fade-up transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5" style="animation-delay: 0.3s;">
+            <h2 class="text-3xl font-bold mb-4 text-teal-600">Part 2: Personal Ways to Deal with Peer Pressure</h2>
+            <p class="mb-4 text-base leading-relaxed">I've thought about what I would do if my friends wanted to get into a fight or do something violent. It's a scary thought, but I have a plan that makes me feel more in control.</p>
+            <div class="space-y-3">
+                <ul class="list-disc list-inside text-base space-y-3">
+                    <li class="interactive-list-item p-2 rounded-lg"><span class="font-semibold">I Will Use Humor to Deflect:</span> If someone suggests doing something aggressive, I'd try to make a joke to change the mood. This can break the tension in the room.</li>
+                    <li class="interactive-list-item p-2 rounded-lg"><span class="font-semibold">I Will Suggest Something Else:</span> If one of my friends suggests and tries to peer pressure me into performing malicious activities, I could just suggest something else such as playing basketball</li>
+                    <li class="interactive-list-item p-2 rounded-lg"><span class="font-semibold">I Have an Excuse Ready:</span> My parents are pretty strict about where I am. I will use that to my advantage. Saying "I have to get home, my mom will get mad at me" will be an excuse to get me out of certain scenarios</li>
+                    <li class="interactive-list-item p-2 rounded-lg"><span class="font-semibold">I Will Walk Away:</span> If things get serious, I won't hesitate to just leave. My safety is more important than what anyone thinks of me. </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="protective-factors" class="mb-10 bg-white p-8 rounded-xl shadow-lg animate-fade-up transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5" style="animation-delay: 0.5s;">
+            <h2 class="text-3xl font-bold mb-4 text-teal-600">Part 3: My Protective Factors</h2>
+            <p class="mb-4 text-base leading-relaxed">I know I have strengths and supports in my life that protect me. These are the things that keep me grounded and focused on a good future.</p>
+            <div class="space-y-3">
+                 <ul class="list-disc list-inside text-base space-y-3">
+                    <li class="interactive-list-item p-2 rounded-lg"><span class="font-semibold">My Family:</span> This is my biggest protective factor. My parents and I have a good relationship. We have dinner together almost every night and we talk about what's going on. They trust me, and I don't want to break that trust.</li>
+                    <li class="interactive-list-item p-2 rounded-lg"><span class="font-semibold">My Future Goals:</span> I want to build products that help people. I know that getting involved in violence or substance abuse could ruin that goal. Keeping my goals in mind helps me make better choices.</li>
+                    <li class="interactive-list-item p-2 rounded-lg"><span class="font-semibold">Good Friends:</span> Most of my friends are like me. They are focused on school and sports. We support each other in making good decisions.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="action-plan" class="mb-10 bg-white p-8 rounded-xl shadow-lg animate-fade-up transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5" style="animation-delay: 0.7s;">
+            <h2 class="text-3xl font-bold mb-4 text-teal-600">Part 4: My Plan and Trusted Adults</h2>
+            <p class="mb-4 text-base leading-relaxed">Having a plan is just an idea until you know who you can rely on for help. I have a few trusted adults I know I can go to for anything.</p>
+            <div class="mb-6">
+                <h3 class="text-xl font-bold text-gray-700">My Trusted Adults:</h3>
+                <ul class="list-disc list-inside mt-2 space-y-2 text-base">
+                    <li>My Dad</li>
+                    <li>My Mom</li>
+                    <li>My Swim Coaches</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-gray-700">My Concrete Action Plan:</h3>
+                <p class="mt-2 text-base leading-relaxed">If I am ever in a situation where I feel pressured, unsafe, or need to get out, here is my step-by-step plan:</p>
+                <ul class="list-disc list-inside mt-2 space-y-2 text-base">
+                    <li><strong>Step 1:</strong> I will use one of my excuses, like needing to get home, to try and leave calmly.</li>
+                    <li><strong>Step 2:</strong> If I can't leave easily, I will just send a text to my parents.</li>
+                    <li><strong>Step 3:</strong> I will immediately go to a safe, public place if possible (like a well-lit store) and wait for my ride.</li>
+                    <li><strong>Step 4:</strong> I will tell my trusted adult what happened once I am safe.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-6 text-center">
+        <p>&copy; 2025 My Personal Plan for Peace</p>
+    </footer>
+
+</body>
+</html>
